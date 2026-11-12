@@ -12,9 +12,9 @@ The objective is to explore fundamental concepts, implement algorithms, and deve
 
 | Exercise | Description | Status |
 |---|---|---|
-| Exercise 01 | [Brief description] | Completed |
-| Exercise 02 | [Brief description] | In progress |
-| Exercise 03 | [Brief description] | In progress |
+| Exercise 01 | Rigid Body Motion and Perspective Projection Model | Completed |
+| Exercise 02 | Homography Estimation | In progress |
+| Exercise 03 | <W.I.P.> | In progress |
 
 Each exercise is organized into its own directory, containing the source code, required resources, and documentation.
 
@@ -23,6 +23,7 @@ Each exercise is organized into its own directory, containing the source code, r
 - Python
 - NumPy
 - OpenCV
+- matplotlib
 
 *Additional libraries may vary depending on the exercise.*
 
@@ -34,7 +35,6 @@ computer-vision-exercises/
 ├── Exercise_02/
 ├── Exercise_03/
 ├── README.md
-├── LICENSE
 └── .gitignore
 ```
 
@@ -42,8 +42,8 @@ computer-vision-exercises/
 
 This repository is collaboratively developed by:
 
-- [Your GitHub Username](https://github.com/YourUsername)
-- [Colleague's GitHub Username](https://github.com/ColleagueUsername)
+- [Augusto528](https://github.com/Augusto528)
+- [ferncout](https://github.com/Ferncout)
 
 ## Academic Context
 
