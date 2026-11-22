@@ -27,8 +27,6 @@ for nome in imagens:
     corners, ids, rejected = aruco.detectMarkers(gray, aruco_dict, parameters=params)
 
     if len(corners) > 0:
-        # tenta recuperar marcadores que nao foram detectados
-        corners, ids, rejected, recovered = aruco.refineDetectedMarkers(gray, board, corners, ids, rejected)
         # interpola os cantos do tabuleiro ChArUco
         n, charucoCorners, charucoIds = aruco.interpolateCornersCharuco(corners, ids, gray, board)
         if charucoCorners is not None and n > 3:
