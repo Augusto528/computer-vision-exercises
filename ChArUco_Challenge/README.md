@@ -158,8 +158,10 @@ O programa:
 
 ```
 .
+├── .gitignore
 ├── ChArUco_calib.py
 ├── README.md
+├── requirements.txt
 └── canon_charuco/
     ├── IMG_1570.JPG
     ├── IMG_1575.JPG
